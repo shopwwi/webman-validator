@@ -206,7 +206,7 @@ class Validator{
         $file = config('translation.path').DIRECTORY_SEPARATOR.config('translation.locale').DIRECTORY_SEPARATOR.'validator.php';
         if(is_file($file)) {
             $typeMsg = include $file;
-            $this->typeMsg = array_merge_recursive( $this->typeMsg, $typeMsg);
+            $this->typeMsg = array_merge( $this->typeMsg, $typeMsg);
         }
         if (!empty(static::$maker)) {
             foreach (static::$maker as $maker) {

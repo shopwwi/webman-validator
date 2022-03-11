@@ -1,0 +1,28 @@
+{
+  "name": "shopwwi/webman-validator",
+  "description": "webman validator",
+  "keywords": ["webman", "validator"],
+  "type": "library",
+  "require": {
+    "php": ">=7.2",
+    "symfony/translation": "^5.0"
+  },
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Shopwwi\\WebmanValidator\\": "src/"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.x-dev"
+    }
+  },
+  "minimum-stability": "dev",
+  "authors": [
+    {
+      "name": "Tycoon Song",
+      "email": "8988354@qq.com"
+    }
+  ]
+}
